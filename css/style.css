@@ -11,7 +11,7 @@
 .nav-sec {
     height: 100vh;
     width: 100%;
-    background-image: url(../Images/bg-image.png);
+    background-image: url(../Images/9415586.png);
     background-size: cover;
     background-position: center;
 
@@ -130,6 +130,7 @@ h4 {
     width: 100%;
     padding: 100px 0px;
     background-color: rgb(25, 25, 25);
+    text-align: center;
 
 }
 
@@ -141,6 +142,7 @@ h4 {
 
 .about-txt {
     width: 550px;
+
 }
 
 .main {
@@ -150,6 +152,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .about-txt h2 {
@@ -167,6 +170,34 @@ h4 {
     text-transform: capitalize;
 }
 
+.long-short {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.long-short.expanded {
+    -webkit-line-clamp: unset;
+}
+
+.read-more {
+    display: flex;
+    margin: 1rem;
+    background-color: #007aff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
 .dev {
     color: #ffeccd;
 }
@@ -180,6 +211,12 @@ h4 {
    letter-spacing: 1px;
    font-size: 18px;
    margin-bottom: 45px;
+}
+
+.about-txt-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 button {
@@ -198,6 +235,22 @@ button:hover {
     border: 2px solid #cf8d22;
     cursor: pointer;
 }
+
+.let-chat-abt-me {
+    display: block;
+    margin: 1rem;
+    background-color: #cf8d22;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    width: 510px;
+}
+
 
 .serv {
     background-color: #101010;
